@@ -1,0 +1,40 @@
+li {
+  color: #7fff00;
+}
+
+.alista {
+  color: #7fff00;
+  text-decoration-color: #7fff00;
+  text-decoration:none;
+}
+
+.alista:visited {
+  color: #7fff00;
+  text-decoration-color: #7fff00;
+  text-decoration:none;
+}
+
+.linkclickavel {
+  color: #253f4e;
+  text-decoration-color: #253f4e;
+  text-decoration:none;
+}
+
+.navbarcor {
+  color: #343434;
+  text-decoration-color: #343434;
+  text-decoration:none;
+ 
+}
+
+.navbarcor:visited {
+  color: #343434;
+  text-decoration-color: #343434;
+  text-decoration:none;
+  
+}
+
+.navbar {
+   display: flex;
+   gap:100px
+}
