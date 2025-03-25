@@ -1,16 +1,16 @@
 li {
-  color: #7fff00;
+  color: #748CAB;
 }
 
 .alista {
-  color: #7fff00;
-  text-decoration-color: #7fff00;
+  color: #748CAB;
+  text-decoration-color: #748CAB;
   text-decoration:none;
 }
 
 .alista:visited {
-  color: #7fff00;
-  text-decoration-color: #7fff00;
+  color: #748CAB;
+  text-decoration-color: #748CAB;
   text-decoration:none;
 }
 
@@ -21,20 +21,45 @@ li {
 }
 
 .navbarcor {
-  color: #343434;
-  text-decoration-color: #343434;
+  color: #F0EBD8;
+  text-decoration-color: #F0EBD8;
   text-decoration:none;
  
 }
 
 .navbarcor:visited {
-  color: #343434;
-  text-decoration-color: #343434;
+  color: #F0EBD8;
+  text-decoration-color: #F0EBD8;
   text-decoration:none;
   
 }
 
+body,ul{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
-   display: flex;
-   gap:100px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D2D44;
+  padding: 15px 0;
+  gap: 250px;
+}
+
+.navbar a:hover {
+  color: #748CAB;
+  background: #1D2D44;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #F0EBD8;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
