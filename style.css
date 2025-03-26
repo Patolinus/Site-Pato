@@ -44,22 +44,28 @@ body,ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1D2D44;
-  padding: 15px 0;
-  gap: 250px;
+  padding: 0px 0;
+  gap: 50px;
+  background-image: url("/Itens isolados/linhas de contorno do menu/linhascontorno.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 153px;
 }
 
 .navbar a:hover {
-  color: #748CAB;
-  background: #1D2D44;
+  color: transparent;
+  background: transparent;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #F0EBD8;
+  color: transparent;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
   padding: 10px 15px;
   border-radius: 5px;
+  border: 10px solid transparent;
+ 
 }
+
